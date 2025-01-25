@@ -1,0 +1,27 @@
+.header {
+    width: auto;
+    height: 56.83px;
+    display: flex;
+    align-items: center; /* Vertically center the logo */
+    justify-content: flex-start; /* Default justification */
+    background-color: var(--primary-color); /* Use CSS variables for dynamic theming */
+  }
+  
+  .header-mobile {
+    padding-left: 12px; /* Mobile-specific padding */
+  }
+  
+  .header-desktop {
+    padding-left: 116px; /* Desktop-specific padding */
+  }
+  
+  .logo {
+    width: auto;
+    height: auto; /* Default logo size */
+  }
+  
+  .logo-mobile {
+    width: 148px; /* Mobile-specific width */
+    height: 16px; /* Mobile-specific height */
+  }
+  
